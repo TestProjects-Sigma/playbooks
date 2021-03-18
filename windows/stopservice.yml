@@ -9,4 +9,4 @@
 
        name: SQLBrowser
 
-       state: stopped
+       state: running
