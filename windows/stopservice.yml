@@ -1,11 +1,12 @@
 ---
-# This playbook uses the win_ping module to test connectivity to Windows hosts
--  hosts: all 
+- hosts: win 
 
-  tasks:
-  - name: Stop service SQLBrowser
-    win_service:
-		name: SQLBrowser
-		
-		state: stopped
-	
+  tasks: 
+
+   - name: Stop service Tomcat
+
+     win_service:
+
+       name: Tomcat8
+
+       state: stopped
