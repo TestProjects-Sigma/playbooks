@@ -1,12 +1,12 @@
 ---
-- hosts: win 
+- hosts: Windows Servers 
 
   tasks: 
 
-   - name: Stop service Tomcat
+   - name: Stop service SQLBrowser
 
      win_service:
 
-       name: Tomcat8
+       name: SQLBrowser
 
        state: stopped
