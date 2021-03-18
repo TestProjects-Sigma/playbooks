@@ -17,5 +17,6 @@
           - CriticalUpdates
           - UpdateRollups
           - DefinitionUpdates
+          - Updates
         reboot: yes
         log_path: C:\beheer\Win_Template_Patch.log
