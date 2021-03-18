@@ -70,3 +70,4 @@
       - never
       - install
       - check
+	 log_path: C:\beheer\Win_Template_Patch-v2.log
