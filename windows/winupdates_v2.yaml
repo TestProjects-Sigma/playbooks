@@ -4,7 +4,7 @@
 # https://www.reddit.com/r/ansible/comments/dd8oi2/whats_your_playbook_for_updating_windows_servers/
 
 - name: Apply windows updates
-  hosts: windows_systems
+  hosts: 192.168.2.32
   gather_facts: yes
   vars:
     initial_reboot: |-
