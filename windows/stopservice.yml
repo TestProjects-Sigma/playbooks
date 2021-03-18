@@ -9,4 +9,4 @@
 
        name: SQLBrowser
 
-       state: restart
+       state: restarted
