@@ -35,9 +35,9 @@
           - UpdateRollups
           - DefinitionUpdates
           - Updates
+		  log_path: C:\beheer\Win_Template_Patch.log
         reboot: "{{ 'yes' if 'reboot' in ansible_run_tags else 'no' }}"
         state: "{{ 'installed' if 'install' in ansible_run_tags else 'searched' }}"
-		log_path: C:\beheer\Win_Template_Patch-v2.log
       become: yes
       become_method: runas
       become_user: SYSTEM
