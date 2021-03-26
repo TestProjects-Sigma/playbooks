@@ -3,7 +3,6 @@
 # Apply windows updates
 # https://www.reddit.com/r/ansible/comments/dd8oi2/whats_your_playbook_for_updating_windows_servers/
 #
-
 - name: Apply windows updates
   hosts: all
   gather_facts: yes
@@ -36,7 +35,6 @@
           - UpdateRollups
           - DefinitionUpdates
           - Updates
-          log_path: C:\beheer\Win_Template_Patch-v2.log
         reboot: "{{ 'yes' if 'reboot' in ansible_run_tags else 'no' }}"
         state: "{{ 'installed' if 'install' in ansible_run_tags else 'searched' }}"
       become: yes
