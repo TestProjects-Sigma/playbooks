@@ -1,5 +1,5 @@
 ---
-- hosts: apt-servers
+- hosts: all
    tasks:
    - name: updates a server
      apt: update_cache=yes
