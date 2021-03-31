@@ -1,4 +1,5 @@
-- hosts: all
+- name: linux update
+hosts: all
   sudo: true
   tasks:
    - name: updates a server
