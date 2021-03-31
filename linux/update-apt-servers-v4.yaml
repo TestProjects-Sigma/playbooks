@@ -1,4 +1,3 @@
-Ansible Playbook
 #name: Basic Update
 - hosts: Ansible
 become: true
