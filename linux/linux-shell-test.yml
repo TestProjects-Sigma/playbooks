@@ -5,4 +5,4 @@
   - name: Echo the Date to a tmp file
     shell: echo  "`date`"> /tmp/date
   - name: Echo String to a tmp file
-    shell: echo  "Techexpert.tips is a greate website" >  ~/techexpert.txt
+    shell: echo  "Techexpert.tips is a greate website" >  /tmp/techexpert.txt
